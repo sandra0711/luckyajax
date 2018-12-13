@@ -24,3 +24,6 @@ chromedriver.log
 .tddium*
 .env
 *.swp
+node_modules
+.idea/
+/

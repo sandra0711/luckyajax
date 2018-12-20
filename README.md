@@ -1,24 +1,22 @@
 # Lucky Ajax
 
-## Learning Competencies
+## Чему вы научитесь
 
-* Use AJAX actions to change views based on asynchronous data 
-* Implement synchronous / asynchronous requests in a web application
-* Enter into an existing code base and extend it
+* Использовать AJAX для смены страниц, основанных на асинхронных данных
+* Реализовывать синхронные/асинхронные запросы в веб-приложении
+* Использовать существующий код и расширять его
 
-## Summary
+## Введение
 
-We're going to practice converting a working **Sinatra+ActiveRecord** app into
-a **Sinatra+ActiveRecord+jQuery+AJAX** app. Specifically, we're going to take an application that reloads an entire page every time the user submits a form
-into one that just updates the portion of the DOM that needs to change.
+Мы попрактикуемся в превращении **Express-приложения** в **Express+AJAX** приложение. А именно, имея на входе приложение, которое перезагружает страницу каждый раз, когда пользователь отправляет форму, мы получим на выходе приложение, просто перезагружающее часть DOM, которая должна поменяться.
 
 ## Releases
 
-### Release 0:  Up and Running
+### Release 0:  Настройка и запуск
 
 Download the app and take it for a spin. It's working as-is, just without any AJAX. Be sure you understand how it works before moving on to the next section.
 
-### Release 1: Figure Out What to Change
+### Release 1: Поймите, что нужно изменить
 
 Before you start writing any code, you should fully understand how the existing
 application works and use that understanding to determine which parts of the

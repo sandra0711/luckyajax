@@ -42,20 +42,6 @@
    
 Если вы не можете ответить на эти вопросы, то у вас могут возникнуть трудности.
 Не торопитесь, используйте Google, и подумайте над этим!
-The following questions might help you get your bearings:
-
-1. How do you intercept a form submission event using jQuery?
-2. How can we prevent the default form-submission-event action(s) from
-   happening?
-3. How do we do an AJAX post?
-4. What should we pass for the `url` argument? How about the `type` argument?
-   (*Hint:* the HTML `form` element has this for you!)
-5. How do we pass data to the server when making an AJAX call?
-6. When the server responds, what code gets run? How do we access the data that
-   the server sends back?
-
-If you cannot answer these questions, you'll have a tough time implementing
-things. Take your time, use Google, and think it through!
 
 ## Источники
 

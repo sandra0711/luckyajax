@@ -14,21 +14,34 @@
 
 ### Release 0:  Настройка и запуск
 
-Download the app and take it for a spin. It's working as-is, just without any AJAX. Be sure you understand how it works before moving on to the next section.
+Скачайте приложение и запустите его. Приложение работает корректно даже без AJAX. Убедитесь, что вы понимаете, как оно работает перед тем, как перейти к следующему шагу.
 
 ### Release 1: Поймите, что нужно изменить
 
-Before you start writing any code, you should fully understand how the existing
-application works and use that understanding to determine which parts of the
-code need to change. Specifically:
+Прежде чем начинать писать код, вы должны полностью понимать,
+как работает приложение и использовать это понимание, чтобы определить, какие части
+кода нужно переписать. В частности:
 
-1. What happens when you click the "Roll the Die" button?
-2. What *should* happen instead?
-3. Is it necessary to change any of the Sinatra routes?
-4. Where should your JavaScript code that handles the AJAX and DOM updates go?
+1. Что случается, когда вы нажимаете на кнопку "Roll the Die"?
+2. Что *должно* произойти вместо этого?
+3. Нужно ли менять что-нибудь в Express-routes?
+4. Куда нужно поместить JavaScript код, который обрабатывает обновления AJAX и DOM?
 
-### Release 2: AJAXify It!
+### Release 2: AJAXифицируйте!
 
+Следующие вопросы помогут вам сориентироваться:
+
+1. Как можно перехватить событие отправки формы?
+2. Как мы можем отменить действие по умолчанию при отправке формы?
+3. Как мы совершаем AJAX post-запрос?
+4. Что нужно отправить в аргумент `url`? Что насчет `type`? 
+   (*Подсказка:* у HTML элемента формы это есть!)
+5. Как мы передаем данные на сервер при совершении AJAX запроса?
+6. Когда сервер отвечает, какой код запускается? Как мы получаем доступ к данным
+   котторые присылает сервер в ответ?
+   
+Если вы не можете ответить на эти вопросы, то у вас могут возникнуть трудности.
+Не торопитесь, используйте Google, и подумайте над этим!
 The following questions might help you get your bearings:
 
 1. How do you intercept a form submission event using jQuery?
@@ -44,6 +57,6 @@ The following questions might help you get your bearings:
 If you cannot answer these questions, you'll have a tough time implementing
 things. Take your time, use Google, and think it through!
 
-## Resources
+## Источники
 
-* [jQuery AJAX](http://api.jquery.com/jquery.ajax/)
+* [w3schools AJAX introduction](https://www.w3schools.com/js/js_ajax_intro.asp)

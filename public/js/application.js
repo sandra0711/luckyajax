@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', event => {
 
-  // PSEUDO-CODE:
-  //   1- intercept the form submission event
-  //   2- prevent the default action for that event from happening
-  //   3- submit an AJAX post to the form's action
-  //   4- when the AJAX post is done, display the new die roll
+  // PSEUDO-код:
+  // 1 - перехватить событие отправки формы
+  // 2 - предотвратить действие по умолчанию для этого события
+  // 3 - отправить AJAX-сообщение на сервер
+  // 4 - когда сообщение AJAX готово, отображаем новый бросок кубика
 
-};
+});

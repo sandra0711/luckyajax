@@ -8,7 +8,7 @@ router.get('/', function(req, res) {
   res.render('index');
 });
 
-// TODO: convert this route to use AJAX
+// TODO: изменить данный маршрутизатор с использованием AJAX
 router.post('/rolls', function (req, res) {
     let die = new Die(Number(req.body.sides));
     res.render('index', {die: die, roll: die.roll()});

@@ -43,5 +43,5 @@
 
 ## Источники
 
-* [w3schools AJAX introduction](https://www.w3schools.com/js/js_ajax_intro.asp)
-* [MDN AJAX: getting started](https://developer.mozilla.org/en-US/docs/Web/Guide/AJAX/Getting_Started)
+* [MDN. Получение данных с сервера](https://developer.mozilla.org/ru/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data)
+* [MDN Fetch API](https://developer.mozilla.org/ru/docs/Web/API/Fetch_API)

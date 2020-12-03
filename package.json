@@ -6,11 +6,24 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
-    "cookie-parser": "~1.4.3",
+    "cookie-parser": "^1.4.5",
     "debug": "~2.6.9",
-    "express": "~4.16.0",
-    "hbs": "~4.0.1",
-    "http-errors": "~1.6.2",
-    "morgan": "~1.9.0"
-  }
+    "express": "^4.16.4",
+    "hbs": "^4.0.6",
+    "http-errors": "^1.6.3",
+    "mongoose": "^5.11.2",
+    "morgan": "^1.10.0"
+  },
+  "description": "## Чему вы научитесь",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandra0711/lucky-ajax-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandra0711/lucky-ajax-challenge/issues"
+  },
+  "homepage": "https://github.com/sandra0711/lucky-ajax-challenge#readme"
 }
